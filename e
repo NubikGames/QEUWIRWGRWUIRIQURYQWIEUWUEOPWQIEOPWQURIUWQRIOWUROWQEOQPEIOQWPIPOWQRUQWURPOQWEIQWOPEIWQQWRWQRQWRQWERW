@@ -131,3 +131,4 @@ end)
 local Section = Tab:NewSection("Credits")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
+Section:NewLabel("Version 1.0a")

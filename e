@@ -109,7 +109,7 @@ Section:NewButton("Fe Message Translator", "Was added to the hub on 07/23/2022",
 end)
 
 Section:NewButton("HitBox Expander", "Was added to the hub on 07/22/2022", function()
-    loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/Fe-Chat-Translator-for-loadstring/main/Script2"))()
     print("HitBox Expander Executed")
 end)
 

@@ -202,20 +202,10 @@ Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function
     end
 end)
 
-Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function(state)
-    if state then
-        screenGui.Parent = plrGui
-        print("Unlocked Mouse")
-    else
-        screenGui.Parent = game.Workspace
-        print("Locked Mouse")
-    end
-end)
-
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
 Section:NewLabel("Version 1.2f")
-Section:NewLabel("Last Updated 23.07.2022 16:44")
+Section:NewLabel("Last Updated 23.07.2022 16:46")

@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/Fe-Chat-Translator-for-loadstring/main/Script6"))()
+--Required Data
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Diex Script Hub", "DarkTheme")
@@ -148,6 +151,38 @@ end)
 
 --MOST DOWN
 
+local Tab = Window:NewTab("Nico's NextBots")
+
+local Section = Tab:NewSection("Functions")
+
+Section:NewButton("Freeze NextBots", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/Fe-Chat-Translator-for-loadstring/main/Script5"))()
+    print("Freeze NextBots Executed")
+end)
+
+Section:NewButton("FullBright", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jZRYfLXX"))()
+    print("FullBright Executed")
+end)
+
+Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function(state)
+    if state then
+        screenGui.Parent = plrGui
+        print("Unlocked Mouse")
+    else
+        screenGui.Parent = nil
+        print("Locked Mouse")
+    end
+end)
+
+local Section = Tab:NewSection("Current Hub")
+
+Section:NewButton("Nex Hub with Key", "Was added to the hub on 07/23/2022", function()
+    setclipboard("I7yPfggyfzKk0n7XonzSP0zfdTJ8QADa") 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader"))()
+    print("Nex Hub Executed | Key Copied")
+end)
+
 local Tab = Window:NewTab("Settings")
 
 local Section = Tab:NewSection("Keybinds")
@@ -161,4 +196,4 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.1d")
+Section:NewLabel("Version 1.2b")

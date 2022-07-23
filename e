@@ -11,6 +11,7 @@ txtButton.Modal = true
 txtButton.Parent = screenGui
 
 --DATA--
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Diex Script Hub", "DarkTheme")
@@ -206,4 +207,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.2c")
+Section:NewLabel("Version 1.2d")
+print("FULLY LOADED")

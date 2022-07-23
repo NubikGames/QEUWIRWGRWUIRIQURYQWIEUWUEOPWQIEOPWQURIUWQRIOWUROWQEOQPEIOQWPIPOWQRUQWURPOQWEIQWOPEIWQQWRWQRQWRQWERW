@@ -179,7 +179,7 @@ Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function
         screenGui.Parent = plrGui
         print("Unlocked Mouse")
     else
-        screenGui.Parent = nil
+        screenGui.Parent = game.Workspace
         print("Locked Mouse")
     end
 end)

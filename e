@@ -33,6 +33,12 @@ Section:NewButton("CMD-X", "Was added to the hub on 07/22/2022", function()
     print("CMD-X Executed")
 end)
 
+Section:NewButton("Fe Annoy Admin", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheMightySource/FE-Annoying-Admin/main/Main.lua'),true))()
+    setclipboard("https://pastebin.com/raw/9wgVrsQJ")
+    print("Fe Annoy Admin | Commands Copied")
+end)
+
 local Section = Tab:NewSection("Other Hubs")
 
 Section:NewButton("Owl Hub", "Was added to the hub on 07/22/2022", function()
@@ -72,6 +78,11 @@ local Section = Tab:NewSection("Trolling")
 Section:NewButton("Fling Gui", "Was added to the hub on 07/23/2022", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
     print("Fling Gui Executed")
+end)
+
+Section:NewButton("Mouse Fling", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/q3y5ZeY9"))()
+    print("Mouse Fling Executed")
 end)
 
 Section:NewButton("Telekinesis Script", "Was added to the hub on 07/23/2022", function()
@@ -145,4 +156,4 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.1b")
+Section:NewLabel("Version 1.1c")

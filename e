@@ -213,6 +213,20 @@ Section:NewButton("Reset Character", "Was added to the hub on 07/24/2022", funct
     print("Reseted Character!")
 end)
 
+local Tab = Window:NewTab("Funky Friday")
+
+local Section = Tab:NewSection("Tools")
+
+Section:NewButton("Funky Tools", "Was added to the hub on 07/24/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoinkyPoinkie/FunkyFridayDevTools/main/Un-Obfuscated",true))()
+    print("Funky Tools Executed")
+end)
+
+Section:NewButton("Wally Autoplayer", "Was added to the hub on 07/24/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+    print("Wally Autoplayer Executed")
+end)
+
 local Tab = Window:NewTab("Settings")
 
 local Section = Tab:NewSection("Keybinds")
@@ -236,5 +250,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.3b")
-Section:NewLabel("Last Updated 24.07.2022 2:22")
+Section:NewLabel("Version 1.3c")
+Section:NewLabel("Last Updated 24.07.2022 2:40")

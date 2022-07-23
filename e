@@ -194,16 +194,6 @@ end)
 
 local Section = Tab:NewSection("Controling")
 
-Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function(state)
-    if state then
-        screenGui.Parent = plrGui
-        print("Unlocked Mouse")
-    else
-        screenGui.Parent = game.Workspace
-        print("Locked Mouse")
-    end
-end)
-
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("Creator")

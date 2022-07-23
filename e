@@ -119,6 +119,11 @@ Section:NewButton("Delete Nickname", "Was added to the hub on 07/23/2022", funct
     print("Delete Nickname Executed")
 end)
 
+Section:NewButton("Anti Malicious", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/Fe-Chat-Translator-for-loadstring/main/Script4"))()
+    print("Anti Malicious Executed")
+end)
+
 local Section = Tab:NewSection("Helpful Tools")
 
 Section:NewButton("Fe Lag Switch", "Was added to the hub on 07/22/2022", function()
@@ -156,4 +161,4 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.1c")
+Section:NewLabel("Version 1.1d")

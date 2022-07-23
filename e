@@ -96,6 +96,18 @@ Section:NewButton("Required Hats", "Was added to the hub on 07/22/2022", functio
     print("Hats Copied!")
 end)
 
+local Section = Tab:NewSection("Protection")
+
+Section:NewButton("Anti Fling", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/hKfDWcJw'))();
+    print("Anti Fling Executed")
+end)
+
+Section:NewButton("Delete Nickname", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/Fe-Chat-Translator-for-loadstring/main/Script3"))()
+    print("Delete Nickname Executed")
+end)
+
 local Section = Tab:NewSection("Helpful Tools")
 
 Section:NewButton("Fe Lag Switch", "Was added to the hub on 07/22/2022", function()
@@ -131,4 +143,4 @@ end)
 local Section = Tab:NewSection("Credits")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.0a")
+Section:NewLabel("Version 1.1a")

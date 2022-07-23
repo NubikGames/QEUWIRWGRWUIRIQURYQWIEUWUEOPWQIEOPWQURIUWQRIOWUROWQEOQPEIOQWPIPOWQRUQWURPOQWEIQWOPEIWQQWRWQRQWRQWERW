@@ -199,6 +199,20 @@ Section:NewButton("Nex Hub with Key", "Was added to the hub on 07/23/2022", func
     print("Nex Hub Executed | Key Copied")
 end)
 
+local Tab = Window:NewTab("Mano County")
+
+local Section = Tab:NewSection("Current Hub")
+
+Section:NewButton("Loader", "Was added to the hub on 07/24/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/wower"))()
+    print("Loaded")
+end)
+
+Section:NewButton("Reset Character", "Was added to the hub on 07/24/2022", function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    print("Reseted Character!")
+end)
+
 local Tab = Window:NewTab("Settings")
 
 local Section = Tab:NewSection("Keybinds")
@@ -215,20 +229,6 @@ Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function
         screenGui.Parent = game.Workspace
         print("Locked Mouse")
     end
-end)
-
-local Tab = Window:NewTab("Mano County")
-
-local Section = Tab:NewSection("Current Hub")
-
-Section:NewButton("Loader", "Was added to the hub on 07/24/2022", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/wower"))()
-    print("Loaded")
-end)
-
-Section:NewButton("Reset Character", "Was added to the hub on 07/24/2022", function()
-    game.Players.LocalPlayer.Character.Humanoid.Health = 0
-    print("Reseted Character!")
 end)
 
 local Tab = Window:NewTab("Credits")

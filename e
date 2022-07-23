@@ -208,4 +208,4 @@ local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
 Section:NewLabel("Version 1.2d")
-print("FULLY LOADED")
+Section:NewLabel("Last Updated 23.07.2022 16:22")

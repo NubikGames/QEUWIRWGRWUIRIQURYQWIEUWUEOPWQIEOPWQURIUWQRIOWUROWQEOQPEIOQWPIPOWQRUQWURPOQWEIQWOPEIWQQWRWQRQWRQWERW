@@ -142,6 +142,11 @@ Section:NewButton("Fe Lag Switch", "Was added to the hub on 07/22/2022", functio
     print("Fe Lag Switch Executed")
 end)
 
+Section:NewButton("Fates Esp", "Was added to the hub on 07/23/2022", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+    print("Fates Esp Executed")
+end)
+
 Section:NewButton("Fe Message Translator", "Was added to the hub on 07/23/2022", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/Fe-Chat-Translator-for-loadstring/main/Script"))()
     print("Fe Message Translator Executed")
@@ -217,5 +222,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.2g")
-Section:NewLabel("Last Updated 23.07.2022 17:30")
+Section:NewLabel("Version 1.2h")
+Section:NewLabel("Last Updated 23.07.2022 18:00")

@@ -176,16 +176,6 @@ Section:NewButton("FullBright", "Was added to the hub on 07/23/2022", function()
     print("FullBright Executed")
 end)
 
-Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function(state)
-    if state then
-        screenGui.Parent = plrGui
-        print("Unlocked Mouse")
-    else
-        screenGui.Parent = game.Workspace
-        print("Locked Mouse")
-    end
-end)
-
 local Section = Tab:NewSection("Current Hub")
 
 Section:NewButton("Nex Hub with Key", "Was added to the hub on 07/23/2022", function()
@@ -200,6 +190,18 @@ local Section = Tab:NewSection("Keybinds")
 
 Section:NewKeybind("Hub Toggle", "Was added to the hub on 07/22/2022", Enum.KeyCode.RightAlt, function()
 	Library:ToggleUI()
+end)
+
+local Section = Tab:NewSection("Controling")
+
+Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function(state)
+    if state then
+        screenGui.Parent = plrGui
+        print("Unlocked Mouse")
+    else
+        screenGui.Parent = game.Workspace
+        print("Locked Mouse")
+    end
 end)
 
 local Tab = Window:NewTab("Credits")

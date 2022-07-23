@@ -217,10 +217,24 @@ Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function
     end
 end)
 
+local Tab = Window:NewTab("Mano County")
+
+local Section = Tab:NewSection("Current Hub")
+
+Section:NewButton("Loader", "Was added to the hub on 07/24/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/wower"))()
+    print("Loaded")
+end)
+
+Section:NewButton("Reset Character", "Was added to the hub on 07/24/2022", function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    print("Reseted Character!")
+end)
+
 local Tab = Window:NewTab("Credits")
 
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.2h")
-Section:NewLabel("Last Updated 23.07.2022 18:00")
+Section:NewLabel("Version 1.3b")
+Section:NewLabel("Last Updated 24.07.2022 2:22")

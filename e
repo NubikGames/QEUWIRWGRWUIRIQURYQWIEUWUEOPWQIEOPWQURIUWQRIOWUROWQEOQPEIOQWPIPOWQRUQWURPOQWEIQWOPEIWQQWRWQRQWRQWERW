@@ -1,3 +1,16 @@
+local plrGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ 
+local screenGui = Instance.new("ScreenGui")
+ 
+local txtButton = Instance.new("TextButton")
+txtButton.BackgroundTransparency = 1
+txtButton.Size = UDim2.new(0, 0, 0, 0)
+ 
+txtButton.Modal = true
+ 
+txtButton.Parent = screenGui
+
+--DATA--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Diex Script Hub", "DarkTheme")
@@ -163,18 +176,6 @@ Section:NewButton("FullBright", "Was added to the hub on 07/23/2022", function()
 end)
 
 Section:NewToggle("Unlock Mouse", "Was added to the hub on 07/23/2022", function(state)
-    local plrGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
- 
- 
-    local screenGui = Instance.new("ScreenGui")
- 
-    local txtButton = Instance.new("TextButton")
-    txtButton.BackgroundTransparency = 1
-    txtButton.Size = UDim2.new(0, 0, 0, 0)
- 
-    txtButton.Modal = true
- 
-    txtButton.Parent = screenGui
     if state then
         screenGui.Parent = plrGui
         print("Unlocked Mouse")

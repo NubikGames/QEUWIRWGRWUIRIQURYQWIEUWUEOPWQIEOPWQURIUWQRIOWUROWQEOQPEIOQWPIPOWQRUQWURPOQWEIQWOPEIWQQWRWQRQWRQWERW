@@ -160,6 +160,7 @@ Section:NewButton("Tp Tool", "Was added to the hub on 07/22/2022", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PhoenixAceVFX/Roblox-Scripts/master/Click%20TP%20Tool.lua"))();
     print("Tp Tool Executed")
 end)
+
 --SETTINGS DATA--
 
 local plrGui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -173,6 +174,8 @@ txtButton.Size = UDim2.new(0, 0, 0, 0)
 txtButton.Modal = true
  
 txtButton.Parent = screenGui
+
+--GAMES--
 
 local Tab = Window:NewTab("Nico's NextBots")
 
@@ -224,6 +227,15 @@ Section:NewButton("Wally Autoplayer", "Was added to the hub on 07/24/2022", func
     print("Wally Autoplayer Executed")
 end)
 
+local Tab = Window:NewTab("Pls Donate")
+
+local Section = Tab:NewSection("Current Hub")
+
+Section:NewButton("Script", "Was added to the hub on 07/24/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/ouyter"))()
+    print("Script Executed")
+end)
+
 --MOST DOWN--
 
 local Tab = Window:NewTab("Settings")
@@ -249,5 +261,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.4a")
+Section:NewLabel("Version 1.4b")
 Section:NewLabel("Last Updated 24.07.2022 19:00")

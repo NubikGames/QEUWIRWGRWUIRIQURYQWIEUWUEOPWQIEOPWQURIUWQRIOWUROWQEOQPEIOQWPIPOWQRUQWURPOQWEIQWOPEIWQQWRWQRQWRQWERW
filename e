@@ -175,7 +175,7 @@ txtButton.Modal = true
  
 txtButton.Parent = screenGui
 
---MOST DOWN--
+--GAMES--
 
 local Tab = Window:NewTab("Nico's NextBots")
 
@@ -227,6 +227,22 @@ Section:NewButton("Wally Autoplayer", "Was added to the hub on 07/24/2022", func
     print("Wally Autoplayer Executed")
 end)
 
+local Tab = Window:NewTab("Pls Donate")
+
+local Section = Tab:NewSection("Current Hub")
+
+Section:NewButton("Script", "Was added to the hub on 07/24/2022", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/ouyter"))()
+    print("Script Executed")
+end)
+
+Section:NewButton("Load", "Was added to the hub on 07/24/2022", function()
+    game:GetService("CoreGui").OfficialUILib.Enabled = true
+    print("Loaded)
+end)
+
+--MOST DOWN--
+
 local Tab = Window:NewTab("Settings")
 
 local Section = Tab:NewSection("Keybinds")
@@ -250,5 +266,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.3c")
-Section:NewLabel("Last Updated 24.07.2022 2:40")
+Section:NewLabel("Version 1.4a")
+Section:NewLabel("Last Updated 24.07.2022 19:00")

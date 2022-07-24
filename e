@@ -1,4 +1,3 @@
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("Diex Script Hub", "DarkTheme")
@@ -174,8 +173,6 @@ txtButton.Size = UDim2.new(0, 0, 0, 0)
 txtButton.Modal = true
  
 txtButton.Parent = screenGui
-
---GAMES--
 
 local Tab = Window:NewTab("Nico's NextBots")
 

@@ -236,11 +236,6 @@ Section:NewButton("Script", "Was added to the hub on 07/24/2022", function()
     print("Script Executed")
 end)
 
-Section:NewButton("Load", "Was added to the hub on 07/24/2022", function()
-    game:GetService("CoreGui").OfficialUILib.Enabled = true
-    print("Loaded)
-end)
-
 --MOST DOWN--
 
 local Tab = Window:NewTab("Settings")

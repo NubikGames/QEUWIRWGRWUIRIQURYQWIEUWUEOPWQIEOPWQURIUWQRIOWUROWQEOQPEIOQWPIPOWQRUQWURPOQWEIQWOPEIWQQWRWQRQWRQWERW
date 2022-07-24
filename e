@@ -227,15 +227,6 @@ Section:NewButton("Wally Autoplayer", "Was added to the hub on 07/24/2022", func
     print("Wally Autoplayer Executed")
 end)
 
-local Tab = Window:NewTab("Pls Donate")
-
-local Section = Tab:NewSection("Current Hub")
-
-Section:NewButton("Script", "Was added to the hub on 07/24/2022", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/ouyter"))()
-    print("Script Executed")
-end)
-
 --MOST DOWN--
 
 local Tab = Window:NewTab("Settings")

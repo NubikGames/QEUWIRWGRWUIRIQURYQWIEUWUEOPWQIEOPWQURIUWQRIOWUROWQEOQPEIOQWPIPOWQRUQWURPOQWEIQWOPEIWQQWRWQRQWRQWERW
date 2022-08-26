@@ -286,5 +286,5 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Creator")
 
 Section:NewLabel("KUser#6549 - creator | created for - Diex#8268")
-Section:NewLabel("Version 1.4b")
-Section:NewLabel("Last Updated 24.07.2022 19:00")
+Section:NewLabel("Version 1.5a")
+Section:NewLabel("Last Updated 26.08.2022 17:00")

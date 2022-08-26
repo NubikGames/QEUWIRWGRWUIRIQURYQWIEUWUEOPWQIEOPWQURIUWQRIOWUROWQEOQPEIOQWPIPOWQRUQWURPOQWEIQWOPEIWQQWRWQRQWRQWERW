@@ -33,6 +33,15 @@ Section:NewButton("CMD-X", "Was added to the hub on 07/22/2022", function()
     print("CMD-X Executed")
 end)
 
+Section:NewButton("Homebrew Admin", "Was added to the hub on 08/26/2022", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
+    print("Homebrew Admin Executed")
+end)
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
+
 Section:NewButton("Fe Annoy Admin", "Was added to the hub on 07/23/2022", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheMightySource/FE-Annoying-Admin/main/Main.lua'),true))()
     setclipboard("https://pastebin.com/raw/9wgVrsQJ")
@@ -116,6 +125,13 @@ Section:NewButton("Required Hats", "Was added to the hub on 07/22/2022", functio
     setclipboard("https://pastebin.com/raw/5PMpRN8j")
     print("Hats Copied!")
 end)
+
+Section:NewTextBox("Say Message", "Was added to the hub on 08/26/2022", function(txt)
+	local args = {[1] = txt,[2] = "All"}
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+        print(txt)
+end)
+
 
 local Section = Tab:NewSection("Protection")
 
@@ -234,6 +250,15 @@ local Section = Tab:NewSection("Current Hub")
 Section:NewButton("Script", "Was added to the hub on 07/24/2022", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NubikGames/CCCOUNTRRRRR--IN-SSS--UN----OOO/main/ouyter"))()
     print("Script Executed")
+end)
+
+local Tab = Window:NewTab("Blox Fruits")
+
+local Section = Tab:NewSection("Current Hub")
+
+Section:NewButton("HoHo Hub", "Was added to the hub on 08/26/2022", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    print("HoHo Hub Executed")
 end)
 
 --MOST DOWN--

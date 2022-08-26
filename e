@@ -38,10 +38,6 @@ Section:NewButton("Homebrew Admin", "Was added to the hub on 08/26/2022", functi
     print("Homebrew Admin Executed")
 end)
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
-end)
-
 Section:NewButton("Fe Annoy Admin", "Was added to the hub on 07/23/2022", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheMightySource/FE-Annoying-Admin/main/Main.lua'),true))()
     setclipboard("https://pastebin.com/raw/9wgVrsQJ")
